@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oppgave 4</title>
+<!-- Oppgave 5
+Utvid oppgave 4 med å skrive informasjonen fra input-feltet til "console.log". Sjekk at dataene blir skrevet til loggen.-->
+
+    <script>
+        function innTekst(innData) {
+            let ut = innData;
+            alert(ut);
+            console.log(ut);
+        }
+    </script>
+
+</head>
+
+<body>
+
+<input type="text" onchange="innTekst(this.value);" />
+
+</body>
+</html>

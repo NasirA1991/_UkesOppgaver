@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oppgave 3</title>
+<!--Oppgave 3
+Lag et input-felt i en HTML-side. Lag et JavaScript som leser dataene fra input-feltet når det er endringer i feltet (hendelsen "onChange") og som skriver disse dataene ut på en blank side med "document.write". Funksjonen som kalles ved "onChange" skal ta en inn-parameter, som er verdien av input-feltet. -->
+  <script>
+    function innTekst(innData) {
+      let ut = innData;
+      document.write(ut);
+    }
+  </script>
+
+</head>
+
+<body>
+
+<input type="text" onchange="innTekst(this.value);" />
+
+</body>
+</html>
