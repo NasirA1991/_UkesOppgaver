@@ -14,22 +14,21 @@ function heiAlert() {
 /*    Oppgave 3
 Lag et input-felt i en HTML-side. Lag et JavaScript som leser dataene fra input-feltet når det er endringer i feltet (hendelsen "onChange") og som skriver disse dataene ut på en blank side med "document.write". Funksjonen som kalles ved "onChange" skal ta en inn-parameter, som er verdien av input-feltet. */
 
-function innTekst(innData) {
-    let ut = innData;
-    document.write(ut);
+function innTekst3(innData) {
+    document.write(innData);
 }
 
 /*    Oppgave 4
 Endre oppgave 3 ved å legge ut en "pop-up/alert"-boks som skal inneholde teksten fra input-feltet.*/
 
-function innTekst(innData) {
+function innTekst4(innData) {
     alert(innData);
 }
 
 /*    Oppgave 5
 Utvid oppgave 4 med å skrive informasjonen fra input-feltet til "console.log". Sjekk at dataene blir skrevet til loggen.*/
 
-function innTekst(innData) {
+function innTekst5(innData) {
     console.log(innData);
 }
 
@@ -38,7 +37,7 @@ function innTekst(innData) {
 /*Oppgave 6
 Utvid oppgave 3 ved å gi et farge til teksten som vises på blank side.*/
 
-function innTekst(innData) {
+function innTekst6(innData) {
     let ut = innData;
     document.write(ut);
 }
