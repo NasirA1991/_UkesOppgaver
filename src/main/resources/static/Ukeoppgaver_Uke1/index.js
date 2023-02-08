@@ -23,27 +23,25 @@ function innTekst(innData) {
 Endre oppgave 3 ved å legge ut en "pop-up/alert"-boks som skal inneholde teksten fra input-feltet.*/
 
 function innTekst(innData) {
-    let ut = innData;
-    alert(ut);
+    alert(innData);
 }
 
 /*    Oppgave 5
 Utvid oppgave 4 med å skrive informasjonen fra input-feltet til "console.log". Sjekk at dataene blir skrevet til loggen.*/
 
 function innTekst(innData) {
-    let ut = innData;
-    alert(ut);
-    console.log(ut);
+    console.log(innData);
 }
-
-
-
 
 //    Ekstraoppgaver
 
 /*Oppgave 6
 Utvid oppgave 3 ved å gi et farge til teksten som vises på blank side.*/
 
+function innTekst(innData) {
+    let ut = innData;
+    document.write(ut);
+}
 
 /*    Oppgave 7
 Utvid oppgave 4 ved å vise input i alert boks i store bokstaver. */
