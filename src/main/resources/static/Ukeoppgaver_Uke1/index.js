@@ -38,7 +38,8 @@ function innTekst5(innData) {
 Utvid oppgave 3 ved å gi et farge til teksten som vises på blank side.*/
 
 function innTekst6(innData) {
-    document.write(innData.fontcolor("red"));
+    document.write(innData);
+    document.body.style.color = "red";
 }
 
 /*    Oppgave 7
