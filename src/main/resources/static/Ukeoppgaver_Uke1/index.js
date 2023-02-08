@@ -38,20 +38,38 @@ function innTekst5(innData) {
 Utvid oppgave 3 ved å gi et farge til teksten som vises på blank side.*/
 
 function innTekst6(innData) {
-    document.write(innData);
+    document.write(innData.fontcolor("red"));
 }
 
 /*    Oppgave 7
 Utvid oppgave 4 ved å vise input i alert boks i store bokstaver. */
 
+function innTekst7(innData) {
+    alert(innData.toUpperCase());
+}
 
 /*    Oppgave 8
 Lag et knapp som skriver tall “1” til console (bruk console.log) hver gang den trykkes. */
 
+function visTall() {
+        console.log(1);
+    }
 
 /*    Oppgave 9
 Utvid oppgave 8 slik at den skriver til console antall ganger knapp ble trykket. (Tell opp fra 1) */
 
+let clicks = 0;
+
+function visTelleTall() {
+    clicks++;
+    console.log(clicks);
+}
 
 /* Oppgave 10
 Endre oppgave 9 ved å legge til en melding til console slik at den viser "Du har trykket på knappen X ganger" (hvor X er antall ganger knappen ble trykket på). */
+
+let clicksWithStrings
+function visTelleTallMedTekst() {
+    clicksWithStrings++;
+    console.log("Du har trykket på knappen "+clicks+" ganger.");
+}
